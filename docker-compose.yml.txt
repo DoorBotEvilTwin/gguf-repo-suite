@@ -1,0 +1,16 @@
+# Docker compose file to LOCAL development
+
+services:
+  gguf-repo-suite:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: gguf-repo-suite
+    container_name: gguf-repo-suite
+    ports:
+      - "7860:7860"
+    volumes:
+      - .:/home/user/app
+    environment:
+      - RUN_LOCALLY=1
+      - HF_TOKEN=${HF_TOKEN}
