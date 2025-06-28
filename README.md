@@ -464,12 +464,6 @@ In essence, this project was a microcosm of the scientific method, applied to de
 
 ---
 
-### Abstract Summary: A Human-AI Interaction Style
-
-This project was a partnership where the AI provided a firehose of possibilities based on past data, and the human provided the critical thinking, empirical evidence, and intuitive leaps needed to filter those possibilities into a single, working solution. The final script is not just a piece of code; it is an artifact of that unique, challenging, and ultimately successful human-AI interaction.
-
----
-
 ## Addendum: Layer 5 - The Final Hurdles of Re-integration - A Cascade of Bugs
 
 After the main documentation was drafted and the project was believed to be complete with a stable CPU-only pipeline, another request was made: to restore the interactive `gr.LoginButton` to provide a seamless experience on Hugging Face Spaces, ensuring the tool was fully portable for all users. This phase, while seemingly simple, uncovered the last and most subtle layer of bugs in the software stack.
